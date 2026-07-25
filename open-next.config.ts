@@ -1,13 +1,9 @@
-import type { OpenNextConfig } from '@opennextjs/cloudflare'
+import { defineConfig } from '@opennextjs/cloudflare'
 
-const config: OpenNextConfig = {
+export default defineConfig({
   default: {
     override: {
       wrapper: 'cloudflare-edge',
-      incrementalCache: 'cloudflare-kv',
-      tagCache: 'cloudflare-kv',
     },
   },
-}
-
-export default config
+})
