@@ -2,6 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "snrsvf",
   "compatibility_date": "2025-07-25",
+  "main": ".open-next/worker.js",
   "observability": {
     "enabled": true
   },
