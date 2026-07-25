@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "npm run build && npx @opennextjs/cloudflare build --dangerouslyUseUnsupportedNextVersion && wrangler deploy",
+    "deploy": "npm run build && npx @opennextjs/cloudflare build --dangerouslyUseUnsupportedNextVersion && wrangler deploy --temporary",
     "preview": "npm run build && opennextjs-cloudflare build --dangerouslyUseUnsupportedNextVersion && wrangler dev",
     "start": "next start",
     "lint": "next lint"
