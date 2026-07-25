@@ -4,10 +4,8 @@ const config: OpenNextConfig = {
   default: {
     override: {
       wrapper: 'cloudflare-edge',
-      converter: 'cloudflare-edge',
       incrementalCache: 'cloudflare-kv',
       tagCache: 'cloudflare-kv',
-      queue: 'cloudflare-queue',
     },
   },
 }
