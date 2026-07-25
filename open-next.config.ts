@@ -8,6 +8,7 @@ const config: OpenNextConfig = {
       proxyExternalRequest: 'fetch',
       incrementalCache: 'dummy',
       tagCache: 'dummy',
+      queue: 'dummy',
     },
   },
   edgeExternals: ['node:crypto'],
@@ -19,6 +20,7 @@ const config: OpenNextConfig = {
       proxyExternalRequest: 'fetch',
       incrementalCache: 'dummy',
       tagCache: 'dummy',
+      queue: 'dummy',
     },
   },
 }
