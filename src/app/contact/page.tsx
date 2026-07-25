@@ -1,5 +1,3 @@
-'use client'
-
 export default function Contact() {
   return (
     <main>
@@ -8,15 +6,15 @@ export default function Contact() {
       </div>
       <div className="container">
         <div className="card" style={{maxWidth: '600px', margin: '0 auto'}}>
-          <h3>Archdiocese of Cebu</h3>
+          <h3>St. Vincent Ferrer Parish</h3>
           <p>
-            Archbishop&apos;s Residence<br />
-            Basilica del Santo Niño<br />
-            Cebu City, Philippines
+            [Address]<br />
+            [City], [Province]<br />
+            Philippines
           </p>
           <p>
-            <strong>Phone:</strong> (032) 123-4567<br />
-            <strong>Email:</strong> info@thearchdioceseofcebu.com
+            <strong>Phone:</strong> [Phone Number]<br />
+            <strong>Email:</strong> [Email Address]
           </p>
           <p>
             <strong>Office Hours:</strong><br />

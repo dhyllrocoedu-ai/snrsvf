@@ -3,8 +3,8 @@ import './globals.css'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'The Archdiocese of Cebu',
-  description: 'Official website of the Archdiocese of Cebu',
+  title: 'St. Vincent Ferrer Parish',
+  description: 'Official website of St. Vincent Ferrer Parish',
   icons: {
     icon: '/favicon.ico',
   },
@@ -20,19 +20,18 @@ export default function RootLayout({
       <body>
         <header className="header">
           <div className="header-content">
-            <div className="logo">The Archdiocese of Cebu</div>
+            <div className="logo">St. Vincent Ferrer Parish</div>
             <nav>
               <Link href="/">Home</Link>
               <Link href="/about">About</Link>
-              <Link href="/parishes">Parishes</Link>
-              <Link href="/news">News</Link>
+              <Link href="/mass-schedule">Mass Schedule</Link>
               <Link href="/contact">Contact</Link>
             </nav>
           </div>
         </header>
         {children}
         <footer className="footer">
-          <p>© {new Date().getFullYear()} The Archdiocese of Cebu. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} St. Vincent Ferrer Parish. All rights reserved.</p>
         </footer>
       </body>
     </html>
