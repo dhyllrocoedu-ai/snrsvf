@@ -5,17 +5,17 @@ export default function Home() {
     <main>
       <section className="hero">
         <div>
-          <h1>St. Vincent Ferrer Parish</h1>
-          <p>Welcome to our community of faith</p>
+          <h1>San Vicente Ferrer Chapel</h1>
+          <p>Pitalo, San Fernando, Cebu</p>
         </div>
       </section>
 
       <section className="container">
-        <h2 className="section-title">Our Mission</h2>
+        <h2 className="section-title">Our Story</h2>
         <p style={{textAlign: 'center', maxWidth: '800px', margin: '0 auto', lineHeight: '1.8'}}>
-          St. Vincent Ferrer Parish is a community of believers committed to spreading the Gospel,
-          serving the poor, and building a compassionate church. We invite you to join us in our
-          journey of faith.
+          San Vicente Ferrer Chapel in Pitalo has been a place of pilgrimage and devotion since 1925.
+          Built through the faith of our community, the chapel continues to be a spiritual refuge
+          for those seeking divine intercession through San Vicente Ferrer.
         </p>
       </section>
 
@@ -24,12 +24,12 @@ export default function Home() {
         <div className="card-grid">
           <div className="card">
             <h3>Mass Schedule</h3>
-            <p>Find Mass times and service schedules at our parish.</p>
-            <Link href="/parishes" className="btn" style={{display: 'inline-block', marginTop: '1rem'}}>View Schedule</Link>
+            <p>Sundays at 10:00 AM & 4:00 PM. Weekday visits welcome.</p>
+            <Link href="/mass-schedule" className="btn" style={{display: 'inline-block', marginTop: '1rem'}}>View Schedule</Link>
           </div>
           <div className="card">
             <h3>About Us</h3>
-            <p>Learn about our history, leadership, and mission.</p>
+            <p>Learn about our history, the saint, and our community.</p>
             <Link href="/about" className="btn" style={{display: 'inline-block', marginTop: '1rem'}}>Learn More</Link>
           </div>
           <div className="card">
@@ -38,6 +38,14 @@ export default function Home() {
             <Link href="/contact" className="btn" style={{display: 'inline-block', marginTop: '1rem'}}>Get in Touch</Link>
           </div>
         </div>
+      </section>
+
+      <section className="container" style={{background: '#f9f9f9', margin: '0 auto', padding: '2rem', borderRadius: '8px'}}>
+        <h2 className="section-title">Devotion to San Vicente Ferrer</h2>
+        <p style={{textAlign: 'center', maxWidth: '800px', margin: '0 auto', lineHeight: '1.8'}}>
+          "Not even the flames can destroy our faith."<br />
+          <em>— Carmelo Manlosa, President, San Vicente Ferrer Chapel Leaders Association</em>
+        </p>
       </section>
     </main>
   )

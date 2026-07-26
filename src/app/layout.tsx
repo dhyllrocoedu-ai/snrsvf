@@ -31,7 +31,7 @@ export default function RootLayout({
         </header>
         {children}
         <footer className="footer">
-          <p>© {new Date().getFullYear()} St. Vincent Ferrer Parish. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} San Vicente Ferrer Chapel Pitalo, San Fernando Cebu. All rights reserved.</p>
         </footer>
       </body>
     </html>

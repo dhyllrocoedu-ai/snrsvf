@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Contact() {
   return (
     <main>
@@ -6,20 +8,27 @@ export default function Contact() {
       </div>
       <div className="container">
         <div className="card" style={{maxWidth: '600px', margin: '0 auto'}}>
-          <h3>St. Vincent Ferrer Parish</h3>
+          <h3>San Vicente Ferrer Chapel</h3>
           <p>
-            [Address]<br />
-            [City], [Province]<br />
-            Philippines
+            Natalio Bacalso Avenue<br />
+            Pitalo, San Fernando 6018<br />
+            Cebu, Philippines
           </p>
           <p>
-            <strong>Phone:</strong> [Phone Number]<br />
-            <strong>Email:</strong> [Email Address]
+            <strong>Phone:</strong> 2314678<br />
+            <strong>Facebook:</strong>{' '}
+            <a href="https://www.facebook.com/Snr.SanVicenteFerrerPitalo/" target="_blank" rel="noopener noreferrer">
+              fb.com/Snr.SanVicenteFerrerPitalo
+            </a>
+          </p>
+          <p>
+            <strong>Supervising Parish:</strong><br />
+            San Isidro Labrador Parish Church<br />
+            Poblacion, San Fernando, Cebu
           </p>
           <p>
             <strong>Office Hours:</strong><br />
-            Monday - Friday: 8:00 AM - 5:00 PM<br />
-            Saturday: 8:00 AM - 12:00 NN
+            [To be confirmed with parish office]
           </p>
         </div>
 
@@ -44,6 +53,17 @@ export default function Contact() {
             </div>
             <button type="submit" className="btn">Send Message</button>
           </form>
+        </div>
+
+        <div style={{textAlign: 'center', marginTop: '2rem'}}>
+          <h3 style={{color: '#8B0000', marginBottom: '1rem'}}>Mass Schedule</h3>
+          <p>
+            <strong>Sunday:</strong> 10:00 AM & 4:00 PM<br />
+            <strong>Weekdays:</strong> Visit the chapel for prayers
+          </p>
+          <Link href="/mass-schedule" className="btn" style={{display: 'inline-block', marginTop: '1rem'}}>
+            View Full Schedule
+          </Link>
         </div>
       </div>
     </main>
