@@ -8,7 +8,7 @@ export default function Contact() {
       </div>
       <div className="container">
         <div className="card" style={{maxWidth: '600px', margin: '0 auto'}}>
-          <h3>San Vicente Ferrer Chapel</h3>
+          <h3>St. Vincent Ferrer Church Of Pitalo</h3>
           <p>
             Natalio Bacalso Avenue<br />
             Pitalo, San Fernando 6018<br />

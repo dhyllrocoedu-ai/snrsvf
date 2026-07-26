@@ -3,8 +3,8 @@ import './globals.css'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'St. Vincent Ferrer Parish',
-  description: 'Official website of St. Vincent Ferrer Parish',
+  title: 'St. Vincent Ferrer Church Of Pitalo, San Fernando Cebu',
+  description: 'Official website of St. Vincent Ferrer Church of Pitalo, San Fernando Cebu - A place of pilgrimage and devotion since 1925.',
   icons: {
     icon: '/favicon.ico',
   },
@@ -20,7 +20,7 @@ export default function RootLayout({
       <body>
         <header className="header">
           <div className="header-content">
-            <div className="logo">St. Vincent Ferrer Parish</div>
+            <div className="logo">St. Vincent Ferrer Church Of Pitalo</div>
             <nav>
               <Link href="/">Home</Link>
               <Link href="/about">About</Link>
@@ -31,7 +31,7 @@ export default function RootLayout({
         </header>
         {children}
         <footer className="footer">
-          <p>© {new Date().getFullYear()} San Vicente Ferrer Chapel Pitalo, San Fernando Cebu. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} St. Vincent Ferrer Church Of Pitalo, San Fernando Cebu. All rights reserved.</p>
         </footer>
       </body>
     </html>

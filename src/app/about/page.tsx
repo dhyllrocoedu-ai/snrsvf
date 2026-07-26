@@ -66,16 +66,21 @@ export default function About() {
       content: (
         <div className="page-content">
           <p>
-            <strong>San Vicente Ferrer Chapel</strong> (also known as Pitalo Church) is located in Pitalo, San Fernando, Cebu.
-            Established in 1925 through the devotion of Antonio Delgado, the chapel has been a pilgrimage site for devotees seeking the intercession of San Vicente Ferrer.
+            <strong>St. Vincent Ferrer Church</strong> (also known as Pitalo Church) is located in Pitalo, San Fernando, Cebu — one of the largest barangays in the municipality with a population of approximately 7,962 people.
           </p>
           <p>
             <strong>Address:</strong> Natalio Bacalso Avenue, Pitalo, San Fernando 6018<br />
             <strong>Contact:</strong> 2314678<br />
-            <strong>Status:</strong> Chapel under San Isidro Labrador Parish
+            <strong>Facebook:</strong>{' '}
+            <a href="https://www.facebook.com/Snr.SanVicenteFerrerPitalo/" target="_blank" rel="noopener noreferrer">
+              fb.com/Snr.SanVicenteFerrerPitalo
+            </a>
           </p>
           <p>
-            The chapel features Spanish baroque-inspired architecture with a white facade, dark red trim, and gold embellishments. Above the arched main entrance stands a statue of winged St. Vincent Ferrer with reliefs inscribed "Pitalo" and "1925."
+            The chapel features Spanish baroque-inspired architecture with a white facade, dark red trim, and gold embellishments depicting foliage, angels, flowers, and stars. Above the arched main entrance stands a statue of winged St. Vincent Ferrer with reliefs inscribed "Pitalo" and "1925."
+          </p>
+          <p>
+            The chapel is under the supervision of <strong>San Isidro Labrador Parish Church</strong> in the Poblacion of San Fernando, Cebu. It is part of <strong>District III – Southeast Cebu</strong> within the <strong>Vicariate of St. Catherine of Alexandria</strong> under the <strong>Roman Catholic Archdiocese of Cebu</strong>.
           </p>
           <p>
             A notable feature is the relocation of candle racks (dagkotanan) outside the chapel for safety after the 2016 fire incident. The chapel continues to serve as a spiritual refuge for visitors seeking divine favors.
@@ -89,24 +94,62 @@ export default function About() {
       content: (
         <div className="page-content">
           <p>
-            <strong>Vincent Ferrer (1350-1419)</strong> was a Valencian Dominican friar known as a preacher, missionary, and logician. Born on January 23, 1350, in Valencia, Spain, he became one of the most influential religious figures of his time.
+            <strong>Vincent Ferrer (1350-1419)</strong> was a Valencian Dominican friar known as a preacher, missionary, logician, and one of the most influential religious figures of his time. He is often called <strong>"The Angel of the Apocalypse"</strong> because of his fiery preaching about the coming judgment.
+          </p>
+
+          <h3>Early Life</h3>
+          <p>
+            Born on January 23, 1350, in Valencia, Spain, Vincent was the fourth child of Guillem Ferrer and Constança Miquel. A legend tells that his father dreamed a Dominican friar foretold his son would be famous throughout the world. He entered the Dominican Order at age 18, where he read solely Sacred Scripture for three years and eventually memorized it.
+          </p>
+
+          <h3>Physical Description</h3>
+          <p>
+            He was of medium height with a lofty forehead, fair tonsured hair, very dark expressive eyes, and a pale complexion. His voice was described as "strong and powerful, at times gentle, resonant, and vibrant."
+          </p>
+
+          <h3>The Wandering Preacher</h3>
+          <p>
+            For <strong>21 years</strong>, Vincent traveled extensively across Western Europe — England, Scotland, Ireland, Aragon, Castile, France, Switzerland, and Italy. Though he could only speak Limousin (Valencian), he was believed to have been endowed with the <strong>gift of tongues</strong> to communicate with different nationalities.
           </p>
           <p>
-            <strong>Life & Ministry:</strong><br />
-            - Entered the Dominican Order at age 18<br />
-            - Traveled extensively across Western Europe and the British Isles<br />
-            - Preached for 21 years, credited with converting many to Christianity<br />
-            - Involved in the Western Schism (1378-1417), supporting Antipope Benedict XIII<br />
-            - Participated in the Compromise of Caspe
+            He was followed by an army of penitents numbering up to <strong>10,000</strong> at times. He preached for hours, sometimes three hours at a stretch. He maintained an austere lifestyle: sleeping on the floor, perpetual fasting, and arising at 2 AM for prayer.
+          </p>
+
+          <h3>Miracles & Wonders</h3>
+          <p>
+            <strong>More than 800 miracles</strong> were attributed to him. During his lifetime, he was credited with raising <strong>28 people from the dead</strong>. He converted an estimated 25,000 Jews to Catholicism, including Paul of Burgos (Solomon ha-Levi), a rabbi who later became Bishop of Cartagena and Archbishop of Burgos.
           </p>
           <p>
-            <strong>Miracles & Devotion:</strong><br />
-            Known as "The Nameless Saint," he is portrayed with wings, symbolizing his believed power to be in several places at once. Devotees swear to answered petitions after praying to him, lighting candles, and attending Mass.
+            Though he only spoke Valencian, he was understood by all due to his miraculous gift of tongues.
           </p>
+
+          <h3>Why St. Vincent Ferrer is Shown with Wings</h3>
           <p>
-            <strong>Canonization:</strong> June 3, 1455, by Pope Callixtus III<br />
-            <strong>Feast Day:</strong> April 5<br />
-            <strong>Patron of:</strong> Valencia, Spain, France, construction workers, fishermen, prisoners
+            The wings are among St. Vincent Ferrer's traditional attributes. They symbolize:
+          </p>
+          <ul style={{marginLeft: '2rem'}}>
+            <li><strong>Divine Messenger</strong> — He saw himself as God's messenger sent to prepare men for judgment</li>
+            <li><strong>Rapid Missionary Travel</strong> — Symbolizes his extensive travels across Europe as Christ's messenger</li>
+            <li><strong>Angel of the Apocalypse</strong> — Called this because of his preaching about the end times</li>
+          </ul>
+
+          <h3>Role in History</h3>
+          <p>
+            Vincent Ferrer was chosen as one of nine compromisaries (judges) in the <strong>Compromise of Caspe (1412)</strong>, which selected Ferdinand of Castile as King of Aragon. This helped shape Spanish history and led to the dynastic union of Aragon and Castile.
+          </p>
+
+          <h3>Patronage</h3>
+          <p>
+            St. Vincent Ferrer is patron of:
+          </p>
+          <ul style={{marginLeft: '2rem'}}>
+            <li>Valencia, Spain; France; builders; construction workers; fishermen; prisoners</li>
+            <li>In the Philippines: Bayambang (Pangasinan), Cabuyao (Laguna), Leganes (Iloilo), Batad (Iloilo), San Dionisio (Iloilo), San Vicente (Ilocos Sur), and <strong>Pitalo, San Fernando, Cebu</strong></li>
+          </ul>
+
+          <h3>Legacy</h3>
+          <p>
+            He refused ecclesiastical honors, including being offered the cardinalate, preferring to remain an apostle missionary. He died on April 5, 1419, in Vannes, Brittany, France. He was canonized on <strong>June 3, 1455</strong> by Pope Callixtus III. His feast day is celebrated on <strong>April 5</strong>.
           </p>
         </div>
       )
@@ -117,7 +160,7 @@ export default function About() {
       content: (
         <div className="page-content">
           <p>
-            The <strong>Church Youth Ministry</strong> at San Vicente Ferrer Chapel Pitalo is a vibrant community of young people dedicated to serving God and the church.
+            The <strong>Church Youth Ministry</strong> at St. Vincent Ferrer Church Pitalo is a vibrant community of young people dedicated to serving God and the church.
           </p>
           <p>
             Our youth participate in various activities including:
@@ -261,6 +304,11 @@ export default function About() {
             <li>
               <a href="https://cebudailynews.inquirer.net/169963/san-vicente-ferrer-chapel-pitalo-rises-ashes" target="_blank" rel="noopener noreferrer">
                 cebudailynews.inquirer.net
+              </a>
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Vincent_Ferrer" target="_blank" rel="noopener noreferrer">
+                Wikipedia - Vincent Ferrer
               </a>
             </li>
           </ul>
